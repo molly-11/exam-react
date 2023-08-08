@@ -8,7 +8,7 @@ function Laptop({ index, name, brand, weight }) {
     setShow(!show)
   }
   return (
-    <div key={index}>
+    <div key={index} className="laptopData">
       <div>
         <Typography variant="h5">{name}</Typography>
 
